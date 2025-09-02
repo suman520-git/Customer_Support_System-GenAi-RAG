@@ -12,5 +12,6 @@ langchain_groq
 pykernel
 beautifulsoup4
 lxml
+streamlit
 
 -e .

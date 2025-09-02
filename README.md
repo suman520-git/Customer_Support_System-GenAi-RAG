@@ -11,7 +11,9 @@ To deploy this project run
 ```bash
   uvicorn main:app --reload --port 8001
 ```
+or
 
+streamlit run Streamlit_ui.py
 
 ## Environment Variables
 
