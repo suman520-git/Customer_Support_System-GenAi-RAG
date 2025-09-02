@@ -53,13 +53,17 @@ Customer_Support_System-GenAi-RAG
 │  ├─ config_loader.py                      
 │  ├─ model_loader.py                       
 │  └─ __init__.py                           
+├─ __pycache__                              
+│  └─ main.cpython-310.pyc                  
 ├─ main.py                                  
 ├─ README.md                                
 ├─ requirements.txt                         
 ├─ setup.py                                 
 ├─ Streamlit_ui.py                          
 └─ test.py                                  
-
+                          
+                              
+                                 
 ```
 
 ## 🚀 Quick Start
