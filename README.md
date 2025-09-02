@@ -16,41 +16,50 @@ This project demonstrates core RAG concepts through a practical implementation t
 ## 📋 Project Structure
 
 ```
-langchain-rag-project/
-├── notebooks/              # Jupyter notebooks for demos
-│   ├── 01_setup.ipynb
-│   ├── 02_data_ingestion.ipynb
-│   ├── 03_embedding_pipeline.ipynb
-│   ├── 04_retrieval_demo.ipynb
-│   ├── 05_rag_testing.ipynb
-│   ├── 06_hyde_experiments.ipynb
-│   ├── 07_advanced_search.ipynb
-│   ├── 08_api_integration.ipynb
-│   └── 09_master_demo.ipynb
-├── src/                    # Source code modules
-│   ├── ingestion/          # Document processing
-│   ├── chunking/           # Text chunking strategies
-│   ├── embedding/          # Embedding generation
-│   ├── retrieval/          # Search and retrieval
-│   ├── generation/         # LLM integration
-│   └── optimization/       # Advanced techniques
-├── app/                    # FastAPI application
-│   ├── main.py            # Main application entry point
-│   ├── enhanced_api.py    # Advanced RAG features API
-│   └── routes/            # API route modules
-│       ├── search.py      # Search endpoints
-│       ├── rag.py         # RAG pipeline endpoints
-│       └── enhancement.py # Enhancement endpoints
-├── config/                 # Configuration files
-├── data/                   # Data storage
-│   ├── raw/               # Source documents
-│   ├── processed/         # Processed chunks
-│   └── embeddings/        # Vector embeddings
-├── tests/                  # Organized test cases
-│   ├── api/               # API endpoint tests
-│   └── integration/       # Integration tests
-├── chatbot.py             # Terminal-based chat interface
-└── static/                # Web UI assets
+Customer_Support_System-GenAi-RAG           
+├─ config                                   
+│  ├─ config.yaml                           
+│  └─ __init__.py                           
+├─ data                                     
+│  └─ flipkart_product_review.csv           
+├─ data_collection                          
+│  └─ Flipkart_headsetdata_web_scraping.py  
+├─ data_ingestion                           
+│  ├─ ingestion_pipeline.py                 
+│  └─ __init__.py                           
+├─ notebook                                 
+│  └─ Expermentation.ipynb                  
+├─ prompt_library                           
+│  ├─ __pycache__                           
+│  │  ├─ prompt.cpython-310.pyc             
+│  │  └─ __init__.cpython-310.pyc           
+│  ├─ prompt.py                             
+│  └─ __init__.py                           
+├─ retriever                                
+│  ├─ __pycache__                           
+│  │  ├─ retrieval.cpython-310.pyc          
+│  │  └─ __init__.cpython-310.pyc           
+│  ├─ retrieval.py                          
+│  └─ __init__.py                           
+├─ static                                   
+│  └─ style.css                             
+├─ templates                                
+│  └─ chat.html                             
+├─ utils                                    
+│  ├─ __pycache__                           
+│  │  ├─ config_loader.cpython-310.pyc      
+│  │  ├─ model_loader.cpython-310.pyc       
+│  │  └─ __init__.cpython-310.pyc           
+│  ├─ config_loader.py                      
+│  ├─ model_loader.py                       
+│  └─ __init__.py                           
+├─ main.py                                  
+├─ README.md                                
+├─ requirements.txt                         
+├─ setup.py                                 
+├─ Streamlit_ui.py                          
+└─ test.py                                  
+
 ```
 
 ## 🚀 Quick Start

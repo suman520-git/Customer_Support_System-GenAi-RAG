@@ -4,3 +4,5 @@ venv
 e_commerce_bot.egg-info
 
 .vscode
+
+__pycache__
