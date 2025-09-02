@@ -120,17 +120,7 @@ streamlit run Streamlit_ui.py
 - **Embedding**: "models/text-embedding-004"
 - **Top-K Retrieval**: 10 documents
 
-## 🤝 Contributing
 
-This is an educational project. Feel free to:
-- Experiment with different models and parameters
-- Add new chunking strategies
-- Implement additional retrieval techniques
-
-
-## 📄 License
-
-This project is for educational purposes. Please check individual component licenses for production use.
 
 ## 🆘 Support
 
@@ -141,4 +131,4 @@ For issues and questions:
 
 ---
 
-*Built with ❤️ for learning RAG systems and LangChain*
+
