@@ -98,15 +98,11 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ### Interactive Development
 Start with the Jupyter notebooks in order:
-1. **01_setup.ipynb** - Environment validation
-2. **02_data_ingestion.ipynb** - Document collection
-3. **03_embedding_pipeline.ipynb** - Vector generation
-4. **04_retrieval_demo.ipynb** - Search testing
-5. **05_rag_testing.ipynb** - Q&A system
-6. **06_hyde_experiments.ipynb** - Advanced retrieval
-7. **07_advanced_search.ipynb** - Hybrid search
-8. **08_api_integration.ipynb** - API testing
-9. **09_master_demo.ipynb** - Complete showcase
+1. **Flipkart_headsetdata_web_scraping.py** - Web Scraping and Datacollection(csv file)
+2. **ingestion_pipeline.py** - Data Transformation and Ingestion in to Vectore store(AstraDB)
+3. **retrieval.py** - Data retrieval from vectore store(AstraDB) acts as retriver
+4. **main.py** - API testing
+
 
 ### API Usage
 Start the FastAPI server and visit `/docs` for interactive API documentation:
